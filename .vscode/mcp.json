@@ -1,0 +1,14 @@
+﻿{
+    "inputs": [],
+    "servers": {
+        "RoslynMCP": {
+            "type": "stdio",
+            "command": "dotnet",
+            "args": [
+                "run",
+                "--project",
+                "E:/Source/roslyn-mcp/RoslynMCP/RoslynMCP/RoslynMCP.csproj"
+            ]
+        }
+    }
+}
