@@ -31,6 +31,12 @@ A Model Context Protocol (MCP) server that provides C# code analysis capabilitie
 }
 ```
 
+## Example prompt
+```
+When done implementing changes, run these validation steps as human will not accept work unless these are done:
+- Always use Roslyn validation tool on C# (.cs) files
+```
+
 ## Getting Started
 1. Build the project
 2. Run the application with:
